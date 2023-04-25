@@ -29,7 +29,7 @@ def profitCalculator():
     profit = 0
     pierderi = 0
     f = open('values.txt', 'r')
-    print("Cat pariem?")
+    print("Enter the bet size:")
     betSize = float(input())
     if betSize < 0.5:
         print("Bad input!")
