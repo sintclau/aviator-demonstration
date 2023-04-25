@@ -6,4 +6,4 @@ In the Aviator, you take on the role of a daring pilot. Your earnings are based 
 The strategy consists in cashing out when the plane has reached 1.20x, and this is repeated in every round.
 For some, this strategy sounds bad, but for others it sounds like a really good tactic.
 
-That's why I made this script in Python. On running, you only need to input the bet size.
+That's why I made this script in Python. On running, you only need to input the bet size and have the `values.txt` file filled with random values(collected from the game Aviator).
