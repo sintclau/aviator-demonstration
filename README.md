@@ -7,3 +7,5 @@ The strategy consists in cashing out when the plane has reached 1.20x, and this 
 For some, this strategy sounds bad, but for others it sounds like a really good tactic.
 
 That's why I made this script in Python. On running, you only need to input the bet size and have the `values.txt` file filled with random values(collected from the game Aviator).
+
+By default, the success rate for the values introduced by me in the `values.txt` file is 74%.
