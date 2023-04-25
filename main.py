@@ -44,10 +44,10 @@ def profitCalculator():
             if line1 <= 1.20:
                 pierderi = pierderi + betSize
     total = profit - pierderi
-    print("Numar de valori introduse: " + str(numarValori) + "   Numarul de succese: " + str(numarSuccese))
-    print("Procentajul succeselor: " + str(procentaj) + "%")
-    print("Am obtinut un profit de " + str(profit) + " lei, dar am pierdut " + str(pierderi) + " lei.")
-    print("In total am ramas cu suma de " + str(total) + " lei.")
+    print("Number of values entered: " + str(numarValori) + "   Number of successful rounds: " + str(numarSuccese))
+    print("Success rate: " + str(procentaj) + "%")
+    print("We have obtained a profit of " + str(profit) + " $, however we lost " + str(pierderi) + " $.")
+    print("In total we won " + str(total) + " $.")
 
 if __name__ == "__main__":
 	profitCalculator()
