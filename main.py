@@ -9,12 +9,11 @@ def procentajSucces():
     procentaj = 0
 
     while True:
-        count += 1
-        
         line = f.readline()
         if not line:
             break
         line = float(line)
+        count += 1
         if line > 1.20:
             countSucces += 1
     f.close()
@@ -24,8 +23,8 @@ def procentajSucces():
 def profitCalculator():
     rezultatSucces = procentajSucces()
     procentaj = rezultatSucces[0]
-    numarValori = rezultatSucces[2]
-    numarSuccese = rezultatSucces[1]
+    numarValori = rezultatSucces[1]
+    numarSuccese = rezultatSucces[2]
     profit = 0
     pierderi = 0
     f = open('values.txt', 'r')
